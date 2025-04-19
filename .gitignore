@@ -328,5 +328,10 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+# RASA
+
+/rasa/rasa_venv
+/rasa/.rasa
+/rasa/models
 
 # End of https://www.toptal.com/developers/gitignore/api/node,react,jetbrains+all,visualstudiocode,macos,windows
