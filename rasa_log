@@ -1,0 +1,235 @@
+2025-04-24 13:12:45,206 - DEBUG - h5py._conv - Creating converter from 7 to 5
+2025-04-24 13:12:45,206 - DEBUG - h5py._conv - Creating converter from 5 to 7
+2025-04-24 13:12:45,206 - DEBUG - h5py._conv - Creating converter from 7 to 5
+2025-04-24 13:12:45,206 - DEBUG - h5py._conv - Creating converter from 5 to 7
+2025-04-24 13:12:45,538 - DEBUG - jax._src.path - etils.epath was not found. Using pathlib for file I/O.
+2025-04-24 13:12:46,493 - DEBUG - rasa.core.utils - Available web server routes: 
+/conversations/<conversation_id:path>/messages     POST                           add_message
+/conversations/<conversation_id:path>/tracker/events POST                           append_events
+/webhooks/rasa                                     GET                            custom_webhook_RasaChatInput.health
+/webhooks/rasa/webhook                             POST                           custom_webhook_RasaChatInput.receive
+/webhooks/rest                                     GET                            custom_webhook_RestInput.health
+/webhooks/rest/webhook                             POST                           custom_webhook_RestInput.receive
+/model/test/intents                                POST                           evaluate_intents
+/model/test/stories                                POST                           evaluate_stories
+/conversations/<conversation_id:path>/execute      POST                           execute_action
+/domain                                            GET                            get_domain
+/                                                  GET                            hello
+/model                                             PUT                            load_model
+/model/parse                                       POST                           parse
+/conversations/<conversation_id:path>/predict      POST                           predict
+/conversations/<conversation_id:path>/tracker/events PUT                            replace_events
+/conversations/<conversation_id:path>/story        GET                            retrieve_story
+/conversations/<conversation_id:path>/tracker      GET                            retrieve_tracker
+/status                                            GET                            status
+/model/predict                                     POST                           tracker_predict
+/model/train                                       POST                           train
+/conversations/<conversation_id:path>/trigger_intent POST                           trigger_intent
+/model                                             DELETE                         unload_model
+/version                                           GET                            version
+2025-04-24 13:12:46,493 [DEBUG]  Available web server routes: 
+/conversations/<conversation_id:path>/messages     POST                           add_message
+/conversations/<conversation_id:path>/tracker/events POST                           append_events
+/webhooks/rasa                                     GET                            custom_webhook_RasaChatInput.health
+/webhooks/rasa/webhook                             POST                           custom_webhook_RasaChatInput.receive
+/webhooks/rest                                     GET                            custom_webhook_RestInput.health
+/webhooks/rest/webhook                             POST                           custom_webhook_RestInput.receive
+/model/test/intents                                POST                           evaluate_intents
+/model/test/stories                                POST                           evaluate_stories
+/conversations/<conversation_id:path>/execute      POST                           execute_action
+/domain                                            GET                            get_domain
+/                                                  GET                            hello
+/model                                             PUT                            load_model
+/model/parse                                       POST                           parse
+/conversations/<conversation_id:path>/predict      POST                           predict
+/conversations/<conversation_id:path>/tracker/events PUT                            replace_events
+/conversations/<conversation_id:path>/story        GET                            retrieve_story
+/conversations/<conversation_id:path>/tracker      GET                            retrieve_tracker
+/status                                            GET                            status
+/model/predict                                     POST                           tracker_predict
+/model/train                                       POST                           train
+/conversations/<conversation_id:path>/trigger_intent POST                           trigger_intent
+/model                                             DELETE                         unload_model
+/version                                           GET                            version
+2025-04-24 13:12:46,493 - INFO - root - Starting Rasa server on http://0.0.0.0:5005
+2025-04-24 13:12:46,493 [INFO ]  Starting Rasa server on http://0.0.0.0:5005
+2025-04-24 13:12:46,494 - DEBUG - rasa.core.utils - Using the default number of Sanic workers (1).
+2025-04-24 13:12:46,494 [DEBUG]  Using the default number of Sanic workers (1).
+2025-04-24 13:12:46,626 - DEBUG - rasa.core.tracker_store - Connected to InMemoryTrackerStore.
+2025-04-24 13:12:46,626 [DEBUG]  Connected to InMemoryTrackerStore.
+2025-04-24 13:12:46,626 - DEBUG - rasa.core.lock_store - Connected to lock store 'InMemoryLockStore'.
+2025-04-24 13:12:46,626 [DEBUG]  Connected to lock store 'InMemoryLockStore'.
+2025-04-24 13:12:46,626 - DEBUG - rasa.core.nlg.generator - Instantiated NLG to 'TemplatedNaturalLanguageGenerator'.
+2025-04-24 13:12:46,626 [DEBUG]  Instantiated NLG to 'TemplatedNaturalLanguageGenerator'.
+2025-04-24 13:12:46,627 - INFO - rasa.core.processor - Loading model models/20250424-124437-odious-lagoon.tar.gz...
+2025-04-24 13:12:46,627 [INFO ]  Loading model models/20250424-124437-odious-lagoon.tar.gz...
+2025-04-24 13:12:47,416 - DEBUG - rasa.nlu.featurizers.dense_featurizer.lm_featurizer - Loading Tokenizer and Model for bert
+2025-04-24 13:12:47,416 [DEBUG]  Loading Tokenizer and Model for bert
+2025-04-24 13:12:47,418 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): huggingface.co:443
+2025-04-24 13:12:47,418 [DEBUG]  Starting new HTTPS connection (1): huggingface.co:443
+2025-04-24 13:12:47,648 - DEBUG - urllib3.connectionpool - https://huggingface.co:443 "HEAD /bert-base-cased/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-04-24 13:12:47,648 [DEBUG]  https://huggingface.co:443 "HEAD /bert-base-cased/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-04-24 13:12:47,835 - DEBUG - urllib3.connectionpool - https://huggingface.co:443 "HEAD /bert-base-cased/resolve/main/config.json HTTP/1.1" 200 0
+2025-04-24 13:12:47,835 [DEBUG]  https://huggingface.co:443 "HEAD /bert-base-cased/resolve/main/config.json HTTP/1.1" 200 0
+2025-04-24 13:12:50,303 - DEBUG - rasa.nlu.classifiers.diet_classifier - You specified 'DIET' to train entities, but no entities are present in the training data. Skipping training of entities.
+2025-04-24 13:12:50,303 [DEBUG]  You specified 'DIET' to train entities, but no entities are present in the training data. Skipping training of entities.
+2025-04-24 13:12:50,329 - DEBUG - rasa.nlu.classifiers.diet_classifier - Following metrics will be logged during training: 
+2025-04-24 13:12:50,329 [DEBUG]  Following metrics will be logged during training: 
+2025-04-24 13:12:50,329 - DEBUG - rasa.nlu.classifiers.diet_classifier -   t_loss (total loss)
+2025-04-24 13:12:50,329 [DEBUG]    t_loss (total loss)
+2025-04-24 13:12:50,329 - DEBUG - rasa.nlu.classifiers.diet_classifier -   m_acc (mask acc)
+2025-04-24 13:12:50,329 [DEBUG]    m_acc (mask acc)
+2025-04-24 13:12:50,329 - DEBUG - rasa.nlu.classifiers.diet_classifier -   i_acc (intent acc)
+2025-04-24 13:12:50,329 [DEBUG]    i_acc (intent acc)
+2025-04-24 13:12:59,623 - DEBUG - rasa.nlu.extractors.entity_synonyms - Failed to load ABCMeta from model storage. Resource 'train_EntitySynonymMapper6' doesn't exist.
+2025-04-24 13:12:59,623 [DEBUG]  Failed to load ABCMeta from model storage. Resource 'train_EntitySynonymMapper6' doesn't exist.
+2025-04-24 13:12:59,623 - DEBUG - rasa.nlu.classifiers.diet_classifier - Failed to load ABCMeta from model storage. Resource 'train_ResponseSelector7' doesn't exist.
+2025-04-24 13:12:59,623 [DEBUG]  Failed to load ABCMeta from model storage. Resource 'train_ResponseSelector7' doesn't exist.
+2025-04-24 13:12:59,624 - DEBUG - rasa.nlu.selectors.response_selector - Failed to load ResponseSelector from model storage. Resource 'train_ResponseSelector7' doesn't exist.
+2025-04-24 13:12:59,624 [DEBUG]  Failed to load ResponseSelector from model storage. Resource 'train_ResponseSelector7' doesn't exist.
+2025-04-24 13:13:09,714 - INFO - root - Rasa server is up and running.
+2025-04-24 13:13:09,714 [INFO ]  Rasa server is up and running.
+2025-04-24 13:13:09,715 - INFO - root - Enabling coroutine debugging. Loop id 94891274656928.
+2025-04-24 13:13:09,715 [INFO ]  Enabling coroutine debugging. Loop id 94891274656928.
+2025-04-24 13:13:17,425 - DEBUG - rasa.core.lock_store - Issuing ticket for conversation 'PractikumStudent'.
+2025-04-24 13:13:17,425 [DEBUG]  Issuing ticket for conversation 'PractikumStudent'.
+2025-04-24 13:13:17,426 - DEBUG - rasa.core.lock_store - Acquiring lock for conversation 'PractikumStudent'.
+2025-04-24 13:13:17,426 [DEBUG]  Acquiring lock for conversation 'PractikumStudent'.
+2025-04-24 13:13:17,426 - DEBUG - rasa.core.lock_store - Acquired lock for conversation 'PractikumStudent'.
+2025-04-24 13:13:17,426 [DEBUG]  Acquired lock for conversation 'PractikumStudent'.
+2025-04-24 13:13:17,426 - DEBUG - rasa.core.tracker_store - Could not find tracker for conversation ID 'PractikumStudent'.
+2025-04-24 13:13:17,426 [DEBUG]  Could not find tracker for conversation ID 'PractikumStudent'.
+2025-04-24 13:13:17,426 - DEBUG - rasa.core.tracker_store - No event broker configured. Skipping streaming events.
+2025-04-24 13:13:17,426 [DEBUG]  No event broker configured. Skipping streaming events.
+2025-04-24 13:13:17,426 - DEBUG - rasa.core.processor - Starting a new session for conversation ID 'PractikumStudent'.
+2025-04-24 13:13:17,426 [DEBUG]  Starting a new session for conversation ID 'PractikumStudent'.
+2025-04-24 13:13:17,790 - DEBUG - rasa.nlu.classifiers.diet_classifier - There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+2025-04-24 13:13:17,790 [DEBUG]  There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+2025-04-24 13:13:17,790 - DEBUG - rasa.nlu.selectors.response_selector - Adding following selector key to message property: default
+2025-04-24 13:13:17,790 [DEBUG]  Adding following selector key to message property: default
+2025-04-24 13:13:17,791 - DEBUG - rasa.core.processor - Logged UserUtterance - tracker now has 4 events.
+2025-04-24 13:13:17,791 [DEBUG]  Logged UserUtterance - tracker now has 4 events.
+2025-04-24 13:13:17,792 - DEBUG - rasa.core.actions.action - Validating extracted slots: topic
+2025-04-24 13:13:17,792 [DEBUG]  Validating extracted slots: topic
+2025-04-24 13:13:17,793 - DEBUG - rasa.core.policies.memoization - There is a memorised next action 'utter_greet'
+2025-04-24 13:13:17,793 [DEBUG]  There is a memorised next action 'utter_greet'
+2025-04-24 13:13:17,793 - DEBUG - rasa.core.policies.rule_policy - There is no applicable rule.
+2025-04-24 13:13:17,793 [DEBUG]  There is no applicable rule.
+2025-04-24 13:13:17,794 - DEBUG - rasa.core.policies.rule_policy - There is a rule for the next action 'utter_greet'.
+2025-04-24 13:13:17,794 [DEBUG]  There is a rule for the next action 'utter_greet'.
+2025-04-24 13:13:17,798 - DEBUG - rasa.core.policies.ted_policy - TED predicted 'utter_greet' based on user intent.
+2025-04-24 13:13:17,798 [DEBUG]  TED predicted 'utter_greet' based on user intent.
+2025-04-24 13:13:17,798 - DEBUG - rasa.core.policies.ensemble - Made prediction using user intent.
+2025-04-24 13:13:17,798 [DEBUG]  Made prediction using user intent.
+2025-04-24 13:13:17,799 - DEBUG - rasa.core.policies.ensemble - Added `DefinePrevUserUtteredFeaturization(False)` event.
+2025-04-24 13:13:17,799 [DEBUG]  Added `DefinePrevUserUtteredFeaturization(False)` event.
+2025-04-24 13:13:17,799 - DEBUG - rasa.core.policies.ensemble - Predicted next action using RulePolicy.
+2025-04-24 13:13:17,799 [DEBUG]  Predicted next action using RulePolicy.
+2025-04-24 13:13:17,799 - DEBUG - rasa.core.processor - Predicted next action 'utter_greet' with confidence 1.00.
+2025-04-24 13:13:17,799 [DEBUG]  Predicted next action 'utter_greet' with confidence 1.00.
+2025-04-24 13:13:17,800 - DEBUG - rasa.core.policies.memoization - There is a memorised next action 'action_listen'
+2025-04-24 13:13:17,800 [DEBUG]  There is a memorised next action 'action_listen'
+2025-04-24 13:13:17,801 - DEBUG - rasa.core.policies.rule_policy - There is a rule for the next action 'action_listen'.
+2025-04-24 13:13:17,801 [DEBUG]  There is a rule for the next action 'action_listen'.
+2025-04-24 13:13:17,805 - DEBUG - rasa.core.policies.ted_policy - TED predicted 'action_listen' based on user intent.
+2025-04-24 13:13:17,805 [DEBUG]  TED predicted 'action_listen' based on user intent.
+2025-04-24 13:13:17,805 - DEBUG - rasa.core.policies.ensemble - Predicted next action using RulePolicy.
+2025-04-24 13:13:17,805 [DEBUG]  Predicted next action using RulePolicy.
+2025-04-24 13:13:17,805 - DEBUG - rasa.core.processor - Predicted next action 'action_listen' with confidence 1.00.
+2025-04-24 13:13:17,805 [DEBUG]  Predicted next action 'action_listen' with confidence 1.00.
+2025-04-24 13:13:17,805 - DEBUG - rasa.core.tracker_store - No event broker configured. Skipping streaming events.
+2025-04-24 13:13:17,805 [DEBUG]  No event broker configured. Skipping streaming events.
+2025-04-24 13:13:17,806 - DEBUG - rasa.core.lock_store - Deleted lock for conversation 'PractikumStudent'.
+2025-04-24 13:13:17,806 [DEBUG]  Deleted lock for conversation 'PractikumStudent'.
+2025-04-24 13:13:22,073 - DEBUG - rasa.core.lock_store - Issuing ticket for conversation 'PractikumStudent'.
+2025-04-24 13:13:22,073 [DEBUG]  Issuing ticket for conversation 'PractikumStudent'.
+2025-04-24 13:13:22,074 - DEBUG - rasa.core.lock_store - Acquiring lock for conversation 'PractikumStudent'.
+2025-04-24 13:13:22,074 [DEBUG]  Acquiring lock for conversation 'PractikumStudent'.
+2025-04-24 13:13:22,074 - DEBUG - rasa.core.lock_store - Acquired lock for conversation 'PractikumStudent'.
+2025-04-24 13:13:22,074 [DEBUG]  Acquired lock for conversation 'PractikumStudent'.
+2025-04-24 13:13:22,074 - DEBUG - rasa.core.tracker_store - Recreating tracker for id 'PractikumStudent'
+2025-04-24 13:13:22,074 [DEBUG]  Recreating tracker for id 'PractikumStudent'
+2025-04-24 13:13:22,284 - DEBUG - rasa.nlu.classifiers.diet_classifier - There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+2025-04-24 13:13:22,284 [DEBUG]  There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+2025-04-24 13:13:22,285 - DEBUG - rasa.nlu.selectors.response_selector - Adding following selector key to message property: default
+2025-04-24 13:13:22,285 [DEBUG]  Adding following selector key to message property: default
+2025-04-24 13:13:22,285 - DEBUG - rasa.core.processor - Logged UserUtterance - tracker now has 10 events.
+2025-04-24 13:13:22,285 [DEBUG]  Logged UserUtterance - tracker now has 10 events.
+2025-04-24 13:13:22,286 - DEBUG - rasa.core.actions.action - Validating extracted slots: topic
+2025-04-24 13:13:22,286 [DEBUG]  Validating extracted slots: topic
+2025-04-24 13:13:22,287 - DEBUG - rasa.core.policies.memoization - There is no memorised next action
+2025-04-24 13:13:22,287 [DEBUG]  There is no memorised next action
+2025-04-24 13:13:22,287 - DEBUG - rasa.core.policies.rule_policy - There is no applicable rule.
+2025-04-24 13:13:22,287 [DEBUG]  There is no applicable rule.
+2025-04-24 13:13:22,288 - DEBUG - rasa.core.policies.rule_policy - There is a rule for the next action 'utter_microservices_info'.
+2025-04-24 13:13:22,288 [DEBUG]  There is a rule for the next action 'utter_microservices_info'.
+2025-04-24 13:13:22,292 - DEBUG - rasa.core.policies.ted_policy - TED predicted 'utter_microservices_info' based on user intent.
+2025-04-24 13:13:22,292 [DEBUG]  TED predicted 'utter_microservices_info' based on user intent.
+2025-04-24 13:13:22,293 - DEBUG - rasa.core.policies.ensemble - Made prediction using user intent.
+2025-04-24 13:13:22,293 [DEBUG]  Made prediction using user intent.
+2025-04-24 13:13:22,293 - DEBUG - rasa.core.policies.ensemble - Added `DefinePrevUserUtteredFeaturization(False)` event.
+2025-04-24 13:13:22,293 [DEBUG]  Added `DefinePrevUserUtteredFeaturization(False)` event.
+2025-04-24 13:13:22,293 - DEBUG - rasa.core.policies.ensemble - Predicted next action using RulePolicy.
+2025-04-24 13:13:22,293 [DEBUG]  Predicted next action using RulePolicy.
+2025-04-24 13:13:22,293 - DEBUG - rasa.core.processor - Predicted next action 'utter_microservices_info' with confidence 1.00.
+2025-04-24 13:13:22,293 [DEBUG]  Predicted next action 'utter_microservices_info' with confidence 1.00.
+2025-04-24 13:13:22,294 - DEBUG - rasa.core.policies.memoization - There is no memorised next action
+2025-04-24 13:13:22,294 [DEBUG]  There is no memorised next action
+2025-04-24 13:13:22,295 - DEBUG - rasa.core.policies.rule_policy - There is a rule for the next action 'action_listen'.
+2025-04-24 13:13:22,295 [DEBUG]  There is a rule for the next action 'action_listen'.
+2025-04-24 13:13:22,299 - DEBUG - rasa.core.policies.ted_policy - TED predicted 'action_listen' based on user intent.
+2025-04-24 13:13:22,299 [DEBUG]  TED predicted 'action_listen' based on user intent.
+2025-04-24 13:13:22,299 - DEBUG - rasa.core.policies.ensemble - Predicted next action using RulePolicy.
+2025-04-24 13:13:22,299 [DEBUG]  Predicted next action using RulePolicy.
+2025-04-24 13:13:22,300 - DEBUG - rasa.core.processor - Predicted next action 'action_listen' with confidence 1.00.
+2025-04-24 13:13:22,300 [DEBUG]  Predicted next action 'action_listen' with confidence 1.00.
+2025-04-24 13:13:22,300 - DEBUG - rasa.core.tracker_store - No event broker configured. Skipping streaming events.
+2025-04-24 13:13:22,300 [DEBUG]  No event broker configured. Skipping streaming events.
+2025-04-24 13:13:22,300 - DEBUG - rasa.core.lock_store - Deleted lock for conversation 'PractikumStudent'.
+2025-04-24 13:13:22,300 [DEBUG]  Deleted lock for conversation 'PractikumStudent'.
+2025-04-24 13:13:27,927 - DEBUG - rasa.core.lock_store - Issuing ticket for conversation 'PractikumStudent'.
+2025-04-24 13:13:27,927 [DEBUG]  Issuing ticket for conversation 'PractikumStudent'.
+2025-04-24 13:13:27,927 - DEBUG - rasa.core.lock_store - Acquiring lock for conversation 'PractikumStudent'.
+2025-04-24 13:13:27,927 [DEBUG]  Acquiring lock for conversation 'PractikumStudent'.
+2025-04-24 13:13:27,927 - DEBUG - rasa.core.lock_store - Acquired lock for conversation 'PractikumStudent'.
+2025-04-24 13:13:27,927 [DEBUG]  Acquired lock for conversation 'PractikumStudent'.
+2025-04-24 13:13:27,927 - DEBUG - rasa.core.tracker_store - Recreating tracker for id 'PractikumStudent'
+2025-04-24 13:13:27,927 [DEBUG]  Recreating tracker for id 'PractikumStudent'
+2025-04-24 13:13:28,147 - DEBUG - rasa.nlu.classifiers.diet_classifier - There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+2025-04-24 13:13:28,147 [DEBUG]  There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+2025-04-24 13:13:28,148 - DEBUG - rasa.nlu.selectors.response_selector - Adding following selector key to message property: default
+2025-04-24 13:13:28,148 [DEBUG]  Adding following selector key to message property: default
+2025-04-24 13:13:28,148 - DEBUG - rasa.core.processor - Logged UserUtterance - tracker now has 16 events.
+2025-04-24 13:13:28,148 [DEBUG]  Logged UserUtterance - tracker now has 16 events.
+2025-04-24 13:13:28,149 - DEBUG - rasa.core.actions.action - Validating extracted slots: topic
+2025-04-24 13:13:28,149 [DEBUG]  Validating extracted slots: topic
+2025-04-24 13:13:28,150 - DEBUG - rasa.core.policies.memoization - There is no memorised next action
+2025-04-24 13:13:28,150 [DEBUG]  There is no memorised next action
+2025-04-24 13:13:28,150 - DEBUG - rasa.core.policies.rule_policy - There is no applicable rule.
+2025-04-24 13:13:28,150 [DEBUG]  There is no applicable rule.
+2025-04-24 13:13:28,150 - DEBUG - rasa.core.policies.rule_policy - There is a rule for the next action 'utter_microservices_implementation_info'.
+2025-04-24 13:13:28,150 [DEBUG]  There is a rule for the next action 'utter_microservices_implementation_info'.
+2025-04-24 13:13:28,156 - DEBUG - rasa.core.policies.ted_policy - TED predicted 'utter_microservices_info' based on user intent.
+2025-04-24 13:13:28,156 [DEBUG]  TED predicted 'utter_microservices_info' based on user intent.
+2025-04-24 13:13:28,156 - DEBUG - rasa.core.policies.ensemble - Made prediction using user intent.
+2025-04-24 13:13:28,156 [DEBUG]  Made prediction using user intent.
+2025-04-24 13:13:28,156 - DEBUG - rasa.core.policies.ensemble - Added `DefinePrevUserUtteredFeaturization(False)` event.
+2025-04-24 13:13:28,156 [DEBUG]  Added `DefinePrevUserUtteredFeaturization(False)` event.
+2025-04-24 13:13:28,156 - DEBUG - rasa.core.policies.ensemble - Predicted next action using RulePolicy.
+2025-04-24 13:13:28,156 [DEBUG]  Predicted next action using RulePolicy.
+2025-04-24 13:13:28,156 - DEBUG - rasa.core.processor - Predicted next action 'utter_microservices_implementation_info' with confidence 1.00.
+2025-04-24 13:13:28,156 [DEBUG]  Predicted next action 'utter_microservices_implementation_info' with confidence 1.00.
+2025-04-24 13:13:28,158 - DEBUG - rasa.core.policies.memoization - There is no memorised next action
+2025-04-24 13:13:28,158 [DEBUG]  There is no memorised next action
+2025-04-24 13:13:28,158 - DEBUG - rasa.core.policies.rule_policy - There is a rule for the next action 'action_listen'.
+2025-04-24 13:13:28,158 [DEBUG]  There is a rule for the next action 'action_listen'.
+2025-04-24 13:13:28,163 - DEBUG - rasa.core.policies.ted_policy - TED predicted 'action_listen' based on user intent.
+2025-04-24 13:13:28,163 [DEBUG]  TED predicted 'action_listen' based on user intent.
+2025-04-24 13:13:28,163 - DEBUG - rasa.core.policies.ensemble - Predicted next action using RulePolicy.
+2025-04-24 13:13:28,163 [DEBUG]  Predicted next action using RulePolicy.
+2025-04-24 13:13:28,164 - DEBUG - rasa.core.processor - Predicted next action 'action_listen' with confidence 1.00.
+2025-04-24 13:13:28,164 [DEBUG]  Predicted next action 'action_listen' with confidence 1.00.
+2025-04-24 13:13:28,164 - DEBUG - rasa.core.tracker_store - No event broker configured. Skipping streaming events.
+2025-04-24 13:13:28,164 [DEBUG]  No event broker configured. Skipping streaming events.
+2025-04-24 13:13:28,164 - DEBUG - rasa.core.lock_store - Deleted lock for conversation 'PractikumStudent'.
+2025-04-24 13:13:28,164 [DEBUG]  Deleted lock for conversation 'PractikumStudent'.
